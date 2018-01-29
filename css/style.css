@@ -2,6 +2,7 @@
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 - Typography
 - Spacing
+- Media
 */
 
 /* Typography
@@ -14,6 +15,10 @@ h2, h3, h4, h5 {
 
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+  padding-bottom: 200px;
+}
+
 .header {
   margin-bottom: 5rem; }
 
@@ -37,3 +42,12 @@ canvas {
   position: absolute;
   right: 0;
   top: 0; }
+
+/* Media
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.thumb {
+  cursor: pointer;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+}
